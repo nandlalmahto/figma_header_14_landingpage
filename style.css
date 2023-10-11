@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+.page{
+    width: 100%;
+    height: 100%;
+    background: rgb(76, 51, 158);
+}
+.main{
+   padding: 60px 300px 0px 300px ;
+}
+
+
+/* -----Navbar design----- */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    Width: 100%;
+    Height:40px;
+    /* border: 3px solid rgb(245, 155, 92); */
+    padding: 6px 4px;
+
+}
+
+.navbar .title h3{
+    height: auto;
+    width: auto;
+    color: #ffffff;
+    font-size: 27px;
+}
+
+/* .navbar .title h3:hover{
+    height: auto;
+    width: auto;
+    color: rgb(240, 191, 106);
+    cursor: pointer;
+} */
+
+.navbar .textgrid ul{
+    display: flex;
+    gap: 25px;
+}
+
+.navbar .textgrid ul li{
+    list-style: none;
+}
+
+.navbar .textgrid ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 4px;
+}
+
+.navbar .textgrid ul li a:hover{
+     color: rgb(240, 191, 106);
+}
+
+.navbar .textgrid #l5 a{
+    /* border: 2px solid rgb(240, 191, 106); */
+    padding: 9px 18px;
+    background: rgb(245, 108, 161);
+    border-radius: 50px;
+}
+
+
+/* ----Sign up Content design---- */
+
+.textsignup{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.textsignup .content{
+    width:427px;
+    Height:400px;
+    color: #ffffff;
+    /* border: 2px solid rgb(240, 191, 106);; */
+    padding: 4px;
+
+}
+
+.textsignup .content h1{
+    font-size: 50px;
+}
+.textsignup .content p{
+    font-size: 20px;
+    padding-top: 30px;
+    width: 300px;
+}
+
+.textsignup .content #learnmore{
+    margin-top: 40px;
+}
+.textsignup .content a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 12px;
+    background: rgb(245, 108, 161);
+    border-radius: 30px;
+}
+.textsignup .content a:hover{
+    color: yellow;
+}
+
+
+
+/* ----Sign up Login Page design---- */
+
+.textsignup .sugnup{
+    width:427px;
+    Height:496px;
+    background: #ffffff;
+    /* border: 2px solid rgb(240, 191, 106);; */
+    padding: 0px 70px ;
+    border-radius: 2px;
+
+}
+.textsignup .sugnup #signupnow{
+   
+}
+.textsignup .sugnup #signupnow h1{
+    color: #000000;
+    margin: 24px 0px;
+    text-align: center;
+    
+}
+
+.textsignup .sugnup #inputform{
+
+}
+
+.textsignup .sugnup form #inputform{
+margin: 20px 0px;
+}
+
+.textsignup .sugnup form #inputform input{
+    height: 40px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    margin: 10px 0px;
+    padding: 0px 15px;
+    outline: none;
+    font-size: 16px;
+}
+
+.textsignup .sugnup form #checkbox input{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.textsignup .sugnup form #checkbox label{
+    color: rgb(158, 157, 157);
+    margin: 10px;
+}
+
+.textsignup .sugnup form #buttons{
+ margin: 20px 0px;
+}
+
+.textsignup .sugnup form #buttons button{
+    height: 40px;
+    width: 300px;
+    border-radius: 30px;
+    margin: 15px 0px;
+    padding: 0px 15px;
+    outline: none;
+    background: rgb(76, 51, 158);
+	border: none;
+	cursor: pointer;
+}
+
+
+.textsignup .sugnup form #buttons button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 4px 0px;
+}
+.textsignup .sugnup form #buttons #button2{
+    background-color: rgb(141, 195, 249);
+}
+
+.textsignup .sugnup form #buttons p{
+    text-align: center;
+    color: rgb(158, 157, 157);
+}
+
+.textsignup .sugnup form #buttons #orsignin {
+    margin-top: 10px;
+}
+
+
+.textsignup .sugnup form #buttons p a{
+    text-decoration: none;
+    color: rgb(106, 246, 199);
+    cursor: pointer;
+}
+
